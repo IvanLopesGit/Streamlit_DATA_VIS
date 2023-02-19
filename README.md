@@ -17,12 +17,17 @@ Meu git caso prefiram acompanhar por la e ver o conteúdo dos arquivos: https://
 Explicando os arquivos:
 
 **pasta assets:** aqui pode colocar suas imagens, .css, etc.
-pasta data: aqui pode colocar seus DataSets
-.gitignore: aqui onde você deve adicionar as pastas não relacionadas ao conteúdo que você criou (libs do streamlit e outros devem entrar na config desse arquivo).
+
+**pasta data:** aqui pode colocar seus DataSets
+
+**.gitignore:** aqui onde você deve adicionar as pastas não relacionadas ao conteúdo que você criou (libs do streamlit e outros devem entrar na config desse arquivo).
 readme.md: caso queira escrever sobre seu projeto
-app.py: esse é seu arquivo principal, podendo ter outros arquivos .py.
-requirements.txt: esse é outro arquivo importante junto do app.py, aqui você vai falar pro share streamlit o que deve ser instalado das libs que seu projeto está utilizando. Para criar esse arquivo basta você ir no console e digitar: pip freeze > requirements.txt
-Importante: após criar o requirements, abra ele e remova a biblioteca py32win.py, ela não existe no servidor do streamlit. É um arquivo que permite a criação de componentes python no windows.
+
+**app.py:** esse é seu arquivo principal, podendo ter outros arquivos .py.
+
+**requirements.txt:** esse é outro arquivo importante junto do app.py, aqui você vai falar pro share streamlit o que deve ser instalado das libs que seu projeto está utilizando. Para criar esse arquivo basta você ir no console e digitar: pip freeze > requirements.txt
+
+**Importante:** após criar o requirements, abra ele e remova a biblioteca py32win.py, ela não existe no servidor do streamlit. É um arquivo que permite a criação de componentes python no windows.
 
 ## 3 - Criando o aplicativo no streamlit online
 
