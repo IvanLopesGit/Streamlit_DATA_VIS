@@ -5,6 +5,7 @@ Esse artigo visa ajudar a fazer o upload do seu Dashboard feito com o Streamlit 
 ## 1 - Pré-requisitos: 
 
 Conta no Github (https://github.com/).
+
 Conta no Share Streamlit (https://share.streamlit.io/)
 
 ## 2 - Arquivos necessários no github para que o Share Streamlit consiga ler e disponibilizar online sua Dash.
@@ -15,13 +16,13 @@ Esse é um exemplo da árvore de como deve estar o projeto no github.
 Meu git caso prefiram acompanhar por la e ver o conteúdo dos arquivos: https://github.com/IvanLopesGit/Streamlit_DATA_VIS
 Explicando os arquivos:
 
-# pasta assets: aqui pode colocar suas imagens, .css, etc.
-# pasta data: aqui pode colocar seus DataSets
-# .gitignore: aqui onde você deve adicionar as pastas não relacionadas ao conteúdo que você criou (libs do streamlit e outros devem entrar na config desse arquivo).
-# readme.md: caso queira escrever sobre seu projeto
-# app.py: esse é seu arquivo principal, podendo ter outros arquivos .py.
-# requirements.txt: esse é outro arquivo importante junto do app.py, aqui você vai falar pro share streamlit o que deve ser instalado das libs que seu projeto está # utilizando. Para criar esse arquivo basta você ir no console e digitar: pip freeze > requirements.txt
-# Importante: após criar o requirements, abra ele e remova a biblioteca py32win.py, ela não existe no servidor do streamlit. É um arquivo que permite a criação de # componentes python no windows.
+**pasta assets:** aqui pode colocar suas imagens, .css, etc.
+pasta data: aqui pode colocar seus DataSets
+.gitignore: aqui onde você deve adicionar as pastas não relacionadas ao conteúdo que você criou (libs do streamlit e outros devem entrar na config desse arquivo).
+readme.md: caso queira escrever sobre seu projeto
+app.py: esse é seu arquivo principal, podendo ter outros arquivos .py.
+requirements.txt: esse é outro arquivo importante junto do app.py, aqui você vai falar pro share streamlit o que deve ser instalado das libs que seu projeto está utilizando. Para criar esse arquivo basta você ir no console e digitar: pip freeze > requirements.txt
+Importante: após criar o requirements, abra ele e remova a biblioteca py32win.py, ela não existe no servidor do streamlit. É um arquivo que permite a criação de componentes python no windows.
 
 ## 3 - Criando o aplicativo no streamlit online
 
